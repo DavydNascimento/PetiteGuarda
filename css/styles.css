@@ -1,0 +1,70 @@
+/* Reset do CSS */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body,
+#wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Resposividade: cria a unidade responsiva `rem` → 1rem = 16px*/
+    font-size: 16px;
+}
+
+#wrap {
+    margin: auto;
+}
+
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header img {
+    display: block;
+    width: 4rem;
+    height: auto;
+}
+
+header h1 {
+    flex-grow: 1;
+    margin: 0;
+    margin-left: 1rem;
+    -webkit-text-stroke: .5px white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-andar-1 i {
+    color: orange;
+}
+
+.footer-andar-1 i:hover {
+    color: orangered;
+}
+
+.footer-andar-2 ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-andar-2 ul a:hover {
+    color: orange;
+}
+
+.footer-andar-2 ul {
+    line-height: 2;
+}
