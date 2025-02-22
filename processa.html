@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Carrega o CSS da página -->
+    <!--  Carrega o CSS da página -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Meta tags para SEO -->
+    <!--  Meta tags para SEO -->
     <meta name="author" content="Davyd Dória">
     <meta name="keyword" content="cão, gato, pet, saúde, pelos, patas">
     <!-- Inclui o ícone de favoritos -->
@@ -15,7 +15,7 @@
     <!-- Componentes do Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-    <title>Petite Guarda</title>
+    <title>Petite Guarda - Faça contato</title>
 </head>
 
 <body>
@@ -29,6 +29,7 @@
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Logo</a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -69,74 +70,19 @@
             </div>
         </nav>
 
-        <!-- Conteúdo principal com botões de categorias -->
+        <!-- Usando sticky-footer para empurrar o rodapé  para o final da página -->
         <main class="container flex-grow-1 d-flex">
             <div class="row d-flex flex-grow-1">
-                <article class="col-12 p-3">
-                    <h2>Explore Nossas Categorias</h2>
-                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-                        <!-- Botão para Cachorros -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/cachorros.png" class="card-img-top" alt="Cachorros">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cachorros</h5>
-                                    <a href="cachorros.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Gatos -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/gatos.png" class="card-img-top" alt="Gatos">
-                                <div class="card-body">
-                                    <h5 class="card-title">Gatos</h5>
-                                    <a href="gatos.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Aves -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/aves.png" class="card-img-top" alt="Aves">
-                                <div class="card-body">
-                                    <h5 class="card-title">Aves</h5>
-                                    <a href="aves.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Peixes -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/peixes.png" class="card-img-top" alt="Peixes">
-                                <div class="card-body">
-                                    <h5 class="card-title">Peixes</h5>
-                                    <a href="peixes.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Roedores -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/roedores.png" class="card-img-top" alt="Roedores">
-                                <div class="card-body">
-                                    <h5 class="card-title">Roedores</h5>
-                                    <a href="roedores.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Répteis -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/repteis.png" class="card-img-top" alt="Répteis">
-                                <div class="card-body">
-                                    <h5 class="card-title">Répteis</h5>
-                                    <a href="repteis.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <article class="col-12 col-md-9 flex-grow-1 p-3">
+                    <h2>Faça contato</h2>
+                    <p>Oba!</p>
+                    <p>Se contato foi enviado com sucesso...</p>
+                    <p><em>Obrigado.</em></p>
                 </article>
+                <aside class="col-12 col-md-3 p-3">
+                    <h2>Aside</h2>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero iure nostrum.
+                </aside>
             </div>
         </main>
 

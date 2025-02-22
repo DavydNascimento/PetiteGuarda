@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Carrega o CSS da página -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <!-- Meta tags para SEO -->
     <meta name="author" content="Davyd Dória">
     <meta name="keyword" content="cão, gato, pet, saúde, pelos, patas">
@@ -15,7 +15,7 @@
     <!-- Componentes do Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-    <title>Petite Guarda</title>
+    <title>Petite Guarda - Download</title>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
                             <a class="nav-link" href="cadastro.html">CADASTRO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="download.html">DOWNLOAD</a>
+                            <a class="nav-link" href="/download.html">DOWNLOAD</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button"
@@ -55,7 +55,6 @@
                             </ul>
                         </li>
                     </ul>
-                    <!-- Espaço entre os itens e o último ícone -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="procurar.html"
@@ -69,95 +68,38 @@
             </div>
         </nav>
 
-        <!-- Conteúdo principal com botões de categorias -->
         <main class="container flex-grow-1 d-flex">
             <div class="row d-flex flex-grow-1">
-                <article class="col-12 p-3">
-                    <h2>Explore Nossas Categorias</h2>
-                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-                        <!-- Botão para Cachorros -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/cachorros.png" class="card-img-top" alt="Cachorros">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cachorros</h5>
-                                    <a href="cachorros.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Gatos -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/gatos.png" class="card-img-top" alt="Gatos">
-                                <div class="card-body">
-                                    <h5 class="card-title">Gatos</h5>
-                                    <a href="gatos.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Aves -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/aves.png" class="card-img-top" alt="Aves">
-                                <div class="card-body">
-                                    <h5 class="card-title">Aves</h5>
-                                    <a href="aves.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Peixes -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/peixes.png" class="card-img-top" alt="Peixes">
-                                <div class="card-body">
-                                    <h5 class="card-title">Peixes</h5>
-                                    <a href="peixes.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Roedores -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/roedores.png" class="card-img-top" alt="Roedores">
-                                <div class="card-body">
-                                    <h5 class="card-title">Roedores</h5>
-                                    <a href="roedores.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Botão para Répteis -->
-                        <div class="col">
-                            <div class="card h-100 text-center">
-                                <img src="/img/repteis.png" class="card-img-top" alt="Répteis">
-                                <div class="card-body">
-                                    <h5 class="card-title">Répteis</h5>
-                                    <a href="repteis.html" class="btn btn-primary">Saiba Mais</a>
-                                </div>
-                            </div>
-                        </div>
+                <article class="col-12 col-md-9 flex-grow-1 p-3">
+                    <h2>Download</h2>
+                    <p>Bem-vindo à página de download da Petite Guarda. Aqui você pode baixar o nosso manual de cuidados com pets ou o nosso aplicativo móvel.</p>
+                    <div class="download-links">
+                        <a href="/downloads/manual.pdf" class="btn btn-primary" download>
+                            <i class="fa-solid fa-download"></i> Baixar Manual (PDF)
+                        </a>
+                        <a href="/downloads/app_petite_guarda.apk" class="btn btn-success mt-2" download>
+                            <i class="fa-solid fa-download"></i> Baixar Aplicativo (APK)
+                        </a>
                     </div>
                 </article>
+                <aside class="col-12 col-md-3 p-3">
+                    <h2>Informações Adicionais</h2>
+                    <p>Certifique-se de que seu dispositivo está preparado para instalar aplicativos de fontes desconhecidas antes de baixar o APK.</p>
+                </aside>
             </div>
         </main>
 
         <footer class="text-bg-dark">
-            <!-- Primeiro andar - Licensa -->
             <div class="footer-andar-1 d-flex justify-content-between pt-1">
-                <!-- Acesso à página inicial -->
                 <a href="index.html" class="p-1">
                     <i class="fa-solid fa-house fa-2x fa-fw"></i>
                 </a>
-                <!-- Licensa -->
                 <div class="flex-grow-1 text-center align-content-center">&copy; 2025 Petite Guarda</div>
-                <!-- Acesso ao topo da página -->
                 <a href="#wrap" class="p-1">
                     <i class="fa-solid fa-circle-up fa-2x fa-fw"></i>
                 </a>
             </div>
-            <!-- Segundo andar - Links -->
             <div class="footer-andar-2 d-flex justify-content-around p-2 pt-4">
-
-                <!-- Menu com nossas redes sociais -->
                 <nav>
                     <ul class="list-unstyled">
                         <li><a href="https://facebook.com/petiteguarda" target="_blank">
@@ -174,8 +116,6 @@
                             </a></li>
                     </ul>
                 </nav>
-
-                <!-- Menu com links importantes -->
                 <nav>
                     <ul class="list-unstyled">
                         <li><a href="contatos.html">
